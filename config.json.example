@@ -1,0 +1,38 @@
+{
+    "api": {
+        "default_provider": "claude",
+        "providers": {
+            "claude": {
+                "api_key": "",
+                "model": "claude-3-opus-20240229",
+                "max_tokens": 4000
+            },
+            "deepseek": {
+                "api_key": "",
+                "model": "deepseek-chat",
+                "base_url": "https://api.deepseek.com",
+                "max_tokens": 2048
+            },
+            "mock": {
+                "model": "mock-model"
+            }
+        }
+    },
+    "file_manager": {
+        "base_path": "D:/workstation/ML/AutoCodeforge/work",
+        "project_subdirs": true
+    },
+    "shell_executor": {
+        "timeout": 300,
+        "allow_network_access": true
+    },
+    "cycle": {
+        "max_iterations": 5,
+        "stop_on_error": false
+    },
+    "system_prompt": {
+        "include_code_context": true,
+        "include_directory_structure": true,
+        "suggest_test_data": true
+    }
+}

@@ -1,0 +1,7 @@
+**/work
+work/*
+
+**/__pycache__
+__pycache__/*
+
+config.json
